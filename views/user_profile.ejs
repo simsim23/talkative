@@ -1,0 +1,18 @@
+<link rel="stylesheet" href="<%=assetPath('css/user_profile.css') %>">
+<h1 id="heading-user-profile"><%= title %></h1>
+
+<img id="image-style" src="<%= profile_user.avatar %>" alt="<%= user.name %>">
+
+<% if(user.id == profile_user.id){ %>
+    <!-- if the user matches the profile_user, then show the form -->
+    <form id="user_form" action="/users/update/<%= profile_user.id %>" enctype="multipart/form-data" method="post">
+        <input id="style" class="user-form-attribute" type="text" name="name" placeholder="Your Name" value="<%= profile_user.name %>" required>
+        <input id="style" class="user-form-attribute" type="email" name="email" placeholder="Your Email" value="<%= profile_user.email %>" required>
+        <input class="user-form-attribute" type="file" name="avatar" placeholder="Profile Picture">
+        <button class="user-form-attribute" >Update</button>
+    </form>
+<% }else{ %> 
+    <!-- otherwise only show the details -->
+    <p class="end-style"><%= profile_user.name %></p>
+    <p class="end-style"><%= profile_user.email %></p>
+<% } %>

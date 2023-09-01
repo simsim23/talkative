@@ -1,0 +1,17 @@
+<link rel="stylesheet" href="<%= assetPath('css/user_profile_sign_up.css') %>">
+
+<h1>
+    Sign Up
+</h1>
+
+<form action="/users/create" method="post">
+    <input class="box" type="text" name="name" placeholder="Enter your Name" required>
+    <input class="box" type="email" name="email" placeholder="Enter your Email" required>
+    <input class="box" type="password" name="password" placeholder="Password" required>
+    <input class="box" type="password" name="confirm_password" placeholder="Confirm Password" required>
+    <button class="box" >Sign Up</button>
+</form>
+
+<p id="google-sign-up">
+    <a href="/users/auth/google">Google Sign In/ Sign Up</a>
+</p>

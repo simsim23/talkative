@@ -1,0 +1,26 @@
+#heading{
+  border: 3px solid rgb(20, 4, 77);
+  width: fit-content;
+  border-radius: 30px;
+  padding: 6px;
+  background: linear-gradient(to right bottom, #19e695, #84e588, #b5e387, #d8e291, #f0e1a4, #f0e1a4, #f0e1a4, #f0e1a4, #d8e291, #b5e387, #84e588, #19e695);
+}
+header {
+  border: 2px solid black;
+  margin: 10px;
+  padding: 10px;
+  background-color: #19b3e6; }
+  header .container {
+    display: flex;
+    justify-content: space-between; }
+    header .container #user-name {
+      text-decoration: none;
+      color: black;
+      letter-spacing: 1.5px;
+      font-size: xx-large;
+      border: 2px solid black;
+      border-radius: 30px;
+      padding: 4px; }
+    header .container .button {
+      font-size: x-large;
+      border-radius: 12px; }

@@ -1,0 +1,1 @@
+header{border:2px solid #000;margin:10px;padding:10px;background-color:#67c9ea}header .container{display:flex;justify-content:space-between}header .container #user-name{text-decoration:none;color:#000;letter-spacing:1.5px;font-size:xx-large;border:2px solid #000;border-radius:30px;padding:4px}header .container .button{font-size:x-large;border-radius:12px}

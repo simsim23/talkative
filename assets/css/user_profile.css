@@ -1,0 +1,22 @@
+#heading-user-profile{
+    width: fit-content;
+    margin-left: 10px;
+    border: 3px black;
+    border-style: dashed;
+    border-radius: 20px;
+    padding: 4px;
+}
+#style{
+    border: 2.5px solid black;
+    border-radius: 20px;
+}
+#image-style{
+    height: 350px;
+    width: auto;
+    margin: auto;
+    padding: 20px;
+}
+.end-style{
+    margin: auto;
+    padding: 5px;
+}

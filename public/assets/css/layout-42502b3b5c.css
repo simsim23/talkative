@@ -1,0 +1,17 @@
+html {
+  height: 100%; }
+
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  background-color: #c0e6f2;
+  /* text-align: center; */ }
+  body #layout-main {
+    background-color: bisque;
+    height: 70%;
+    overflow: scroll; }
+
+#each-post {
+  border: 1.5px solid black;
+  border-radius: 70%; }

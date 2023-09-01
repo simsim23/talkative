@@ -1,0 +1,16 @@
+#google-sign-in{
+    margin: auto;
+    background-color: lightgray;
+    width: fit-content;
+    height: 45px;
+    margin-top: 40px;
+}
+#google-sign-in a{
+    padding: 12px;
+    color: rgb(92, 92, 92);
+    font-size: xx-large;
+}
+.box{
+    height: 40px;
+    font-size: larger;
+}
